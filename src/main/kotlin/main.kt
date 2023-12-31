@@ -1,5 +1,6 @@
 fun main() {
-    var amount: Double = 10.000
-    var result: Double = amount - (amount * 0.75/100)
-    println(result)
+    var amount: Int = 10000
+    var commission: Double = (amount * 0.75) / 100
+    var result: Double = amount + commission
+    println("Комиссия равна: " + commission + " рублей." + " Вместе с комиссией вы должны будете заплатить: " + result + " рублей.")
 }
